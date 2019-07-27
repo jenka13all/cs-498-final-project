@@ -1,2 +1,1 @@
-# cs-498-final-project
-Final project for CS-498
+## The evolution of wages in the United States
