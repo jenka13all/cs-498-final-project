@@ -1,1 +1,73 @@
-Test page
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+
+    <!-- load the d3.js library -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <!-- d3 annotations library -->
+    <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" 
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
+        crossorigin="anonymous">
+    </script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="container">
+    <nav aria-label="Interactive Slideshow">
+        <ul class="pagination">
+            <li class="page-item" id="slide_1"><a class="page-link" href="#" onclick="min_wage();">1</a></li>
+            <li class="page-item" id="slide_2"><a class="page-link" href="#" onclick="fight_for_fifteen();">2</a></li>
+            <li class="page-item" id="slide_3"><a class="page-link" href="#" onclick="buying_power();">3</a></li>
+            <li class="page-item" id="slide_4"><a class="page-link" href="#" onclick="poverty_threshold();">4</a></li>
+            <li class="page-item" id="slide_5"><a class="page-link" href="#" onclick="senate_salary();">5</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="container">
+    <p id="headline" class="headline"> </p>
+    <p id="textpart" class="textpart"> </p>
+</div>
+
+<div class="container advice">
+    Hover the mouse over the graphics to display additional information.
+</div>
+
+<svg width="960" height="500"></svg>
+
+<div id="source" class="container"> </div>
+
+<script>
+    // set the dimensions and margins of the graph
+    var svg = d3.select("svg"),
+        margin = {top: 50, right: 160, bottom: 50, left: 150},
+        width = 900 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
+    
+    //set textpart and head to be as wide as SVG
+    d3.select('#textpart')
+        .style('width', width + 'px');
+    d3.select('#headline')
+        .style('width', width + 'px');
+</script>
+
+<script src="min-wage.js"></script>
+<script src="fight-for-15.js"></script>
+<script src="buying-power.js"></script>
+<script src="poverty-threshold.js"></script>
+<script src="senate-salary.js"></script>
+
+<script>
+$( document ).ready(function() {
+    min_wage();
+});</script>
+
+</body>

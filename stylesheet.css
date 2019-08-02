@@ -1,0 +1,85 @@
+.plot{
+    fill: #fff;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #AFBABF;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-family:  Arial;
+    font-size: 14px;
+    fill: #AFBABF;
+}
+
+.x.axis path {
+    display: none;
+}
+.y.axis path{
+    display: none;
+}
+
+.overlay {
+    fill: none;
+    pointer-events: all;
+  }
+  
+  .focus circle {
+    fill: #F1F3F3;
+    stroke: steelblue;
+    stroke-width: 5px;
+  }
+    
+  .hover-line {
+    stroke: steelblue;
+    stroke-width: 2px;
+    stroke-dasharray: 3,3;
+  }
+  
+.line {
+    fill: none;
+    stroke-width: 2px;
+    stroke: steelblue;
+    stroke-linejoin: round;
+    stroke-linecap:round;
+}
+
+.headline {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-bottom:5px;
+    margin-top:0px;
+}
+
+.textpart {
+    font-family: Arial;
+    font-size: 10pt;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+.advice {
+    font-family: Arial;
+    font-size: 10pt;
+    margin-bottom:0px;
+    margin-top:5px;
+    color: #AFBABF;
+}
+
+.legend {
+    font-family: Arial;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+.source {
+    font-family: Arial;
+    font-size: 10pt;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
