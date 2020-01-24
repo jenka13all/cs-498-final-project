@@ -22,4 +22,4 @@ The parameters of my visualisation are simple: years and money. The years displa
 
 Triggers that changed the state of the visualisation included navigation buttons to select slides, and tooltips that brought up more information about a specific selected datapoint when the reader hovered over a section of the chart with the mouse. The reader is alerted to the availability of tooltips in a light-grey text above each slide, as part of the template, and by the appearance of tooltips as soon as the reader enters the graphic with mouse.
 
-[URL for the final interactive visualization:] (https://jenka13all.github.io/cs-498-final-project/)
+URL for the final interactive visualization: https://jenka13all.github.io/cs-498-final-project
