@@ -1,4 +1,4 @@
-# Final project for CS-498 (Data Visualization)
+# Exploration of the history of the minimum wage in the U.S.: a data story
 
 With my data visualisation I address some aspects concerning the debate around the federal minimum wage in the United States. This debate has gained recent traction since the “Raise the Wage” bill was passed in Congress on July 18, 2019.
 
