@@ -1,5 +1,7 @@
 # Exploration of the history of the minimum wage in the U.S.: a data story
 
+URL for the final interactive visualization: https://jenka13all.github.io/cs-498-final-project
+
 With my data visualisation I address some aspects concerning the debate around the federal minimum wage in the United States. This debate has gained recent traction since the “Raise the Wage” bill was passed in Congress on July 18, 2019.
 
 I used the “Interactive Slide Show” narrative structure to retain more author control over the messaging while allowing the reader to interact with the data presented. The presentation consists of 5 slides that can be viewed by the user in any order by clicking on the pagination navigation at the top of the slide.
@@ -22,4 +24,3 @@ The parameters of my visualisation are simple: years and money. The years displa
 
 Triggers that changed the state of the visualisation included navigation buttons to select slides, and tooltips that brought up more information about a specific selected datapoint when the reader hovered over a section of the chart with the mouse. The reader is alerted to the availability of tooltips in a light-grey text above each slide, as part of the template, and by the appearance of tooltips as soon as the reader enters the graphic with mouse.
 
-URL for the final interactive visualization: https://jenka13all.github.io/cs-498-final-project
