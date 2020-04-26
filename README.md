@@ -1,4 +1,4 @@
-# Exploration of the history of the minimum wage in the U.S.: a data story
+# Exploration of the history of the minimum wage in the U.S.: an interactive slide-show
 
 URL for the final interactive visualization: https://jenka13all.github.io/cs-498-final-project
 
